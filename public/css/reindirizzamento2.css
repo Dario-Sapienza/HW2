@@ -1,0 +1,72 @@
+
+
+body {
+    color: white;
+    background-image: url("../img/accesso-sfondo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid yellow;
+    background-color: black;
+    width: 30%;
+    text-align: center;
+}
+
+section h1{
+    color: whitesmoke;
+    font-family: 'Black Ops One', cursive;
+    margin:13px;
+}
+
+section a{
+font-size: 1rem;
+font-family: 'Roboto Mono', monospace;
+color: blueviolet;
+text-decoration: none;
+}
+
+
+section a:hover{
+text-decoration:underline;
+color: yellow;
+
+}
+
+.home_page{
+    font-size: 0.84rem;
+    }
+    
+
+ a.home_page{
+             display: flex;
+        justify-content: flex-end;
+        margin-right: -365px;
+        margin-bottom: 6px;
+    }
+    
+    @media(max-width:600px){
+        section {
+            width: 60%;
+        }
+
+        a.home_page{
+         
+       margin-right: -130px;
+       margin-bottom: 6px;
+   }
+
+ 
+        }
